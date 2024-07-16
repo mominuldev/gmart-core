@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
-use DesignMonks\MonksMartCore\IconsPack;
+use GPTheme\GmartCore\IconsPack;
 use Elementor\{Controls_Manager,
 	Group_Control_Background,
 	Group_Control_Border,
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) exit;
 
 /**
  * Class IconBox
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 class IconBox extends Widget_Base {
 

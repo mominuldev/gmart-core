@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Admin\PostType;
+namespace GPTheme\GmartCore\Admin\PostType;
 
 class Footer {
 

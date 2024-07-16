@@ -1,12 +1,12 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-use DesignMonks\MonksMartCore\IconsPack;
+use GPTheme\GmartCore\IconsPack;
 use Elementor\{Controls_Manager,
 	Group_Control_Background,
 	Group_Control_Border,
@@ -19,7 +19,7 @@ use Elementor\{Controls_Manager,
 /**
  * Class Counter
  *
- * @package DesignMonks\AkijShipping\Widgets
+ * @package GPTheme\AkijShipping\Widgets
  */
 class CounterList extends Widget_Base {
 

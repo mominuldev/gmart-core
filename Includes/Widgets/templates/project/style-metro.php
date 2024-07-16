@@ -1,6 +1,6 @@
 <?php
 
-use DesignMonks\MonksMartCore\ImageSize;
+use GPTheme\GmartCore\ImageSize;
 
 if (isset($settings['grid_metro_layout'])) {
 	$metro_layout = array();

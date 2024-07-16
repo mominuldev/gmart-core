@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore;
+namespace GPTheme\GmartCore;
 
 class DemoImport {
 	public function __construct() {

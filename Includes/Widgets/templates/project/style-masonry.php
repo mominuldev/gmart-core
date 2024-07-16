@@ -1,7 +1,7 @@
 <?php
 
 
-use DesignMonks\MonksMartCore\ImageSize;
+use GPTheme\GmartCore\ImageSize;
 
 $ant = 0.5;
 

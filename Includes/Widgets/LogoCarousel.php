@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{
 	Controls_Manager,
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Class LogoCarousel
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 class LogoCarousel extends Widget_Base {
 

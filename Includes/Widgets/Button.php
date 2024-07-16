@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{
 	Group_Control_Box_Shadow,
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Class Button
  *
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 
 class Button extends Widget_Base {

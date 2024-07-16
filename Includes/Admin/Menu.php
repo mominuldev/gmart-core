@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Admin;
+namespace GPTheme\GmartCore\Admin;
 
 class Menu {
 

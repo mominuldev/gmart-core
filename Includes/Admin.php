@@ -1,9 +1,9 @@
 <?php
 
-namespace DesignMonks\MonksMartCore;
+namespace GPTheme\GmartCore;
 
-use DesignMonks\MonksMartCore\Admin\Menu;
-use DesignMonks\MonksMartCore\Admin\PostType\Footer;
+use GPTheme\GmartCore\Admin\Menu;
+use GPTheme\GmartCore\Admin\PostType\Footer;
 
 
 class Admin {

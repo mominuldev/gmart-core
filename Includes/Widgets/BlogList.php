@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{Controls_Manager, Group_Control_Background, Group_Control_Border, Group_Control_Box_Shadow, Widget_Base, Group_Control_Typography};
 

@@ -4,7 +4,7 @@
     "license": "GPL2",
     "autoload": {
         "psr-4": {
-            "DesignMonks\\MonksMartCore\\": "Includes/"
+            "GPTheme\\GmartCore\\": "Includes/"
         }
     },
     "authors": [

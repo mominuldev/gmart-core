@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Traits;
+namespace GPTheme\GmartCore\Traits;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.

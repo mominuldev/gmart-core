@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\ {
 	Icons_Manager,

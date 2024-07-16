@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{Group_Control_Border,
 	Group_Control_Box_Shadow,

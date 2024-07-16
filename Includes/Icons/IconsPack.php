@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Icons;
+namespace GPTheme\GmartCore\Icons;
 
 class IconsPack {
 	/**

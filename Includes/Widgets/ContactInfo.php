@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{Controls_Manager, Group_Control_Border, Group_Control_Box_Shadow, Widget_Base, Group_Control_Typography, Repeater};
 
@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Class ContactInfo
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 class ContactInfo extends Widget_Base {
 

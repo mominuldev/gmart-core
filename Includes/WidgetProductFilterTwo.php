@@ -5,7 +5,7 @@
  * @package Razzi
  */
 
-namespace DesignMonks\MonksMartCore;
+namespace GPTheme\GmartCore;
 
 //use Razzi\Addons\Helper;
 

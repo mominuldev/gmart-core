@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Elementor\{Controls_Manager, Group_Control_Typography, Repeater, Widget_Base};
 
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Class Tabs
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 class Tabs extends Widget_Base {
 

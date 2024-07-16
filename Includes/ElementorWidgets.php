@@ -1,5 +1,5 @@
 <?php
-namespace DesignMonks\MonksMartCore;
+namespace GPTheme\GmartCore;
 
 use Elementor\Plugin;
 
@@ -73,7 +73,7 @@ class ElementorWidgets {
 			$base  = basename( str_replace( '.php', '', $file ) );
 			$class = ucwords( str_replace( '-', ' ', $base ) );
 			$class = str_replace( ' ', '_', $class );
-			$class = sprintf( '\DesignMonks\MonksMartCore\Widgets\%s', $class );
+			$class = sprintf( '\GPTheme\GmartCore\Widgets\%s', $class );
 
 			if ( class_exists( $class ) ) {
 				$widget_manager->register( new $class );
@@ -90,7 +90,7 @@ class ElementorWidgets {
 			$base  = basename( str_replace( '.php', '', $file ) );
 			$class = ucwords( str_replace( '-', ' ', $base ) );
 			$class = str_replace( ' ', '_', $class );
-			$class = sprintf( '\DesignMonks\MonksMartCore\Elementor\%s', $class );
+			$class = sprintf( '\GPTheme\GmartCore\Elementor\%s', $class );
 
 			if ( class_exists( $class ) ) {
 				new $class;

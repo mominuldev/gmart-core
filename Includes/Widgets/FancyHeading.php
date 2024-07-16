@@ -1,5 +1,5 @@
 <?php
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 use Dmt_Helper;
 use Elementor\{

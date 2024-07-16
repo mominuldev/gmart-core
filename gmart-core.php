@@ -4,16 +4,16 @@
  * Plugin URI: https://themeforest.net/user/gptheme/portfolio
  * Description: This plugin adds the core features to the Monks Mart ecommerce WordPress theme. You must have to install this plugin to get all the features included with the theme.
  * Version: 1.0.0
- * Author: Design Monks
+ * Author: GPTheme
  * Author URI: https://themeforest.net/user/gptheme/portfolio
  * Text domain: gmart-core
  */
 
-use DesignMonks\MonksMartCore\Admin\PostType\Footer;
-use DesignMonks\MonksMartCore\Admin\PostType\MegaMenu;
-use DesignMonks\MonksMartCore\Admin\PostType\ProductBrands;
-use DesignMonks\MonksMartCore\Admin\PostType\Project;
-use DesignMonks\MonksMartCore\DemoImport;
+use GPTheme\GmartCore\Admin\PostType\Footer;
+use GPTheme\GmartCore\Admin\PostType\MegaMenu;
+use GPTheme\GmartCore\Admin\PostType\ProductBrands;
+use GPTheme\GmartCore\Admin\PostType\Project;
+use GPTheme\GmartCore\DemoImport;
 
 if (!defined('ABSPATH'))
 	die('-1');
@@ -39,7 +39,7 @@ define('DMT_WIDGET_TEMPLATE_PATH', dirname(__FILE__) . '/widgets-template/');
 
 // Include comoposer autoload
 require_once GMART_DIR . 'vendor/autoload.php';
-use DesignMonks\MonksMartCore;
+use GPTheme\GmartCore;
 
 // Make sure the same class is not loaded twice in free/premium versions.
 if (!class_exists('Gmart_Core')) {
@@ -206,7 +206,7 @@ if (!class_exists('Gmart_Core')) {
 //			require_once __DIR__ . '/Includes/product_filter.php';
 
 			// Admin
-			new DesignMonks\MonksMartCore\Admin();
+			new GPTheme\GmartCore\Admin();
 			new DemoImport();
 			new MegaMenu();
 			new Footer();
@@ -214,7 +214,7 @@ if (!class_exists('Gmart_Core')) {
 
 
 			// Elementor Widgets
-			DesignMonks\MonksMartCore\ElementorWidgets::get_instance();
+			GPTheme\GmartCore\ElementorWidgets::get_instance();
 
 		}
 
@@ -386,8 +386,8 @@ if (!class_exists('Gmart_Core')) {
 
 		public function register_widgets() {
 			// Product Filter
-			register_widget( 'DesignMonks\MonksMartCore\WidgetProductFilter' );
-//			register_widget( 'DesignMonks\MonksMartCore\WidgetProductFilterTwo' );
+			register_widget( 'GPTheme\GmartCore\WidgetProductFilter' );
+//			register_widget( 'GPTheme\GmartCore\WidgetProductFilterTwo' );
 
 		}
 

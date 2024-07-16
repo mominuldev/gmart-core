@@ -4,7 +4,7 @@
  * Plugin URI: http://www.gmart.com
  * Version: 1.0
  */
-namespace DesignMonks\MonksMartCore\Admin\PostType;
+namespace GPTheme\GmartCore\Admin\PostType;
 
 // Prevent loading this file directly
 defined( 'ABSPATH' ) || exit;

@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 defined( 'ABSPATH' ) || exit; // Abort, if called directly.
 
 use Elementor\{Group_Control_Background, Utils, Widget_Base, Controls_Manager, Group_Control_Typography};

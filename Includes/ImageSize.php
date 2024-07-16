@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore;
+namespace GPTheme\GmartCore;
 
 defined( 'ABSPATH' ) || exit;
 

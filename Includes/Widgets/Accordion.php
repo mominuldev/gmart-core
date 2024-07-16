@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Widgets;
+namespace GPTheme\GmartCore\Widgets;
 
 defined( 'ABSPATH' ) || exit; // Abort, if called directly.
 
@@ -16,7 +16,7 @@ use Elementor\{Group_Control_Background,
 /**
  * Class Accordion
  *
- * @package DesignMonks\MonksMartCore\Widgets
+ * @package GPTheme\GmartCore\Widgets
  */
 class Accordion extends Widget_Base {
 

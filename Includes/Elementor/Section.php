@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignMonks\MonksMartCore\Elementor;
+namespace GPTheme\GmartCore\Elementor;
 
 use Elementor\{Widget_Base,
 	Controls_Manager,
