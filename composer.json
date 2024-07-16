@@ -1,0 +1,18 @@
+{
+    "name": "deisgnmonks/gmart-core",
+    "type": "wordpress-plugin",
+    "license": "GPL2",
+    "autoload": {
+        "psr-4": {
+            "DesignMonks\\MonksMartCore\\": "Includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mominul Islam",
+            "email": "mominulfed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
